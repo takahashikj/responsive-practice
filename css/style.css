@@ -142,24 +142,24 @@ justify-content: center;
   background-color: #00ff51
 }
 .red-box6{
+  display: block;
+  opacity: 100%;
   width: 400px ;
   height: 400px;
   background-color: #ff0000
 }
 .blue-box6{
-  opacity: 0%;
-  width: 0px ;
-  height: 0px;
+  display: none;
+  opacity: 100%;
+  width: 400px ;
+  height: 400px;
   background-color: #0008ff
 }
 @media screen and (max-width: 959px) {
   .blue-box6{
-  width: 400px;
-  height: 400px;
-  opacity: 100%;
+  display: block;
   }
   .red-box6{
-    width: 0;
-    height: 0;
+  display: none;
   }
 }
